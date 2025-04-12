@@ -1,11 +1,14 @@
 
 import './App.css'
+import Banner from './header/Banner'
+import Nav from './header/nav'
 
 function App() {
 
   return (
     <>
-      <h1>Cricket Team</h1>
+      <Nav></Nav>
+      <Banner></Banner>
     </>
   )
 }
