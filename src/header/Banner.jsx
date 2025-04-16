@@ -1,7 +1,7 @@
 import bg from '../assets/bg-shadow.png'
 import banner from '../assets/banner-main.png'
 
-const Banner = () => {
+const Banner = ({handleFreeCredit}) => {
     return (
         <div
             className="hero min-h-screen w-11/12 mx-auto rounded-lg"
@@ -18,7 +18,9 @@ const Banner = () => {
                     <p className="mb-5">
                     Beyond Boundaries Beyond Limits
                     </p>
-                    <button className="btn bg-[#E7FE29] ">Claim Free Credit</button>
+                    <button
+                    onClick={handleFreeCredit}
+                     className="btn bg-[#E7FE29] ">Claim Free Credit</button>
                     
                 </div>
             </div>

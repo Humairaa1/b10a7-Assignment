@@ -1,0 +1,123 @@
+[
+    {
+      "playerId": 1,
+      "name": "Arjun Mehra",
+      "country": "India",
+      "image": "https://example.com/images/arjun_mehra.jpg",
+      "role": "Batsman",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "biddingPrice": "₹1.5 Crore"
+    },
+    {
+      "playerId": 2,
+      "name": "James Thornton",
+      "country": "England",
+      "image": "https://example.com/images/james_thornton.jpg",
+      "role": "Bowler",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Left-arm fast",
+      "biddingPrice": "₹80 Lakh"
+    },
+    {
+      "playerId": 3,
+      "name": "Ali Khan",
+      "country": "Pakistan",
+      "image": "https://example.com/images/ali_khan.jpg",
+      "role": "All-Rounder",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm medium",
+      "biddingPrice": "₹1.2 Crore"
+    },
+    {
+      "playerId": 4,
+      "name": "Chris Maxwell",
+      "country": "Australia",
+      "image": "https://example.com/images/chris_maxwell.jpg",
+      "role": "Wicketkeeper",
+      "battingType": "Right-hand bat",
+      "bowlingType": "N/A",
+      "biddingPrice": "₹90 Lakh"
+    },
+    {
+      "playerId": 5,
+      "name": "Ravi Patel",
+      "country": "India",
+      "image": "https://example.com/images/ravi_patel.jpg",
+      "role": "Bowler",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Right-arm legbreak",
+      "biddingPrice": "₹70 Lakh"
+    },
+    {
+      "playerId": 6,
+      "name": "Daniel Costa",
+      "country": "South Africa",
+      "image": "https://example.com/images/daniel_costa.jpg",
+      "role": "All-Rounder",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Left-arm orthodox",
+      "biddingPrice": "₹1.8 Crore"
+    },
+    {
+      "playerId": 7,
+      "name": "Shahid Rahman",
+      "country": "Bangladesh",
+      "image": "https://example.com/images/shahid_rahman.jpg",
+      "role": "Batsman",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Right-arm offbreak",
+      "biddingPrice": "₹60 Lakh"
+    },
+    {
+      "playerId": 8,
+      "name": "Liam O’Connor",
+      "country": "New Zealand",
+      "image": "https://example.com/images/liam_oconnor.jpg",
+      "role": "Bowler",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm fast",
+      "biddingPrice": "₹1.1 Crore"
+    },
+    {
+      "playerId": 9,
+      "name": "Mohammad Farid",
+      "country": "Afghanistan",
+      "image": "https://example.com/images/mohammad_farid.jpg",
+      "role": "All-Rounder",
+      "battingType": "Right-hand bat",
+      "bowlingType": "Right-arm legbreak",
+      "biddingPrice": "₹95 Lakh"
+    },
+    {
+      "playerId": 10,
+      "name": "Carlos Mendes",
+      "country": "West Indies",
+      "image": "https://example.com/images/carlos_mendes.jpg",
+      "role": "Batsman",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Left-arm fast",
+      "biddingPrice": "₹1.3 Crore"
+    },
+    {
+      "playerId": 11,
+      "name": "Tom Sinclair",
+      "country": "England",
+      "image": "https://example.com/images/tom_sinclair.jpg",
+      "role": "Wicketkeeper",
+      "battingType": "Right-hand bat",
+      "bowlingType": "N/A",
+      "biddingPrice": "₹85 Lakh"
+    },
+    {
+      "playerId": 12,
+      "name": "Yusuf Nawaz",
+      "country": "UAE",
+      "image": "https://example.com/images/yusuf_nawaz.jpg",
+      "role": "Bowler",
+      "battingType": "Left-hand bat",
+      "bowlingType": "Left-arm spin",
+      "biddingPrice": "₹50 Lakh"
+    }
+  ]
+  

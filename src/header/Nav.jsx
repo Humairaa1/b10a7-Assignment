@@ -1,6 +1,6 @@
 import logo from '../assets/logo.png'
 import doller from '../assets/dollar 1.png'
-const Nav = () => {
+const Nav = ({freeCredit}) => {
     return (
         <div className='w-11/12 mx-auto py-5 flex flex-col md:flex-row justify-between items-center'>
             <div>
@@ -12,7 +12,7 @@ const Nav = () => {
                 <li>Teams</li>
                 <li>Schedules</li>
                 <button
-                    className='btn'>0 Coin
+                    className='btn'> {freeCredit} Coin
                     <img src={doller} alt="Doller Icon" />
                 </button>
             </div>
