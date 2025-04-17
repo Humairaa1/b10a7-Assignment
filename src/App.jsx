@@ -47,17 +47,20 @@ function App() {
         handleFreeCredit={handleFreeCredit}>
       </Banner>
 
-      <div className='flex justify-between w-11/12 mx-auto py-10'>
-      {
-        isactive.btn ? <AvailablePlayes></AvailablePlayes> : <SelectedPlayer></SelectedPlayer>
-      }
-
+      <div className='flex justify-end mt-10 mr-20'>
       <ButtonContainer
       isactive={isactive} 
       handleIsActive={handleIsActive}
       ></ButtonContainer>
-
       </div>
+      
+      {
+        isactive.btn ? <AvailablePlayes></AvailablePlayes> : <SelectedPlayer></SelectedPlayer>
+      }
+
+      
+
+    
 
       <Footer></Footer>
     </>
