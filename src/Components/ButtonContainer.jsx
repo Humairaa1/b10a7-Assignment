@@ -1,7 +1,8 @@
 import React from 'react';
 import '../Style/buttonContainer.css'
 
-const ButtonContainer = ({handleIsActive,isactive}) => {
+const ButtonContainer = ({handleIsActive,isactive,selectedPlayer}) => {
+
     
     return (
         <div className=''>
@@ -13,9 +14,9 @@ const ButtonContainer = ({handleIsActive,isactive}) => {
             <button 
             onClick={()=>handleIsActive("selected")} 
             className={`${isactive.btn? "btn" : "btn active"}`}>
-                Selected (0)
+                Selected ({selectedPlayer.length})
             </button>
-            
+
         </div>
     );
 };

@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaFlag, FaUser } from 'react-icons/fa';
 
-const PlayersCard = ({ player }) => {
+const PlayersCard = ({ player ,handleSelectedPlayer}) => {
 
-    const { name, image, country, role, battingType, bowlingType, biddingPrice } = player;
+    const {name, image, country, role, battingType, bowlingType, biddingPrice } = player;
     return (
         <div>
             <div className="card bg-base-100 shadow-sm">
@@ -36,8 +36,8 @@ const PlayersCard = ({ player }) => {
                     </div>
 
                     <div className='flex items-center justify-between mt-2'>
-                        <p className='text-lg font-bold'>Price: {biddingPrice}</p>
-                        <button className='btn'>Choose Player</button>
+                        <p className='text-lg font-bold'>Price: ${biddingPrice}</p>
+                        <button onClick={()=>handleSelectedPlayer(player,biddingPrice)} className='btn'>Choose Player</button>
                     </div>
 
                 </div>
