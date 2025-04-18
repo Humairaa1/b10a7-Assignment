@@ -1,12 +1,16 @@
-# React + Vite
+# Player of Cricket
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Description
+This is a dynamic web application that simulates a cricket player bidding experience. Users can earn coins, bid for players, and manage their team within a beautiful UI designed to match a Figma mockup. It uses conditional rendering, validation, and interactive UI feedback with toast notifications for a smooth experience.
 
-Currently, two official plugins are available:
+- Technologies Used
+React JS (Vite)
+Tailwind CSS
+React-Toastify
+JavaScript (ES6+)
+Figma (for design reference)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 3 Key Features
+1.Real-time Coin Management & Bidding System
+2.Dual Toggle System (Available vs. Selected Players)
+3.Smart Alerts Using React-Toastify

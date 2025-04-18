@@ -92,7 +92,7 @@ function App() {
           ?
           <AvailablePlayes handleSelectedPlayer={handleSelectedPlayer}></AvailablePlayes>
           :
-          <SelectedPlayer selectedPlayer={selectedPlayer} handleDelete={handleDelete}></SelectedPlayer>
+          <SelectedPlayer selectedPlayer={selectedPlayer} handleDelete={handleDelete} handleIsActive={handleIsActive}></SelectedPlayer>
       }
 
       <Footer></Footer>

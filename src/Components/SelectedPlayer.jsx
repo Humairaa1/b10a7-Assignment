@@ -1,7 +1,7 @@
 import React from 'react';
 import SelectedPlayerCard from './SelectedPlayerCard';
 
-const SelectedPlayer = ({ selectedPlayer ,handleDelete}) => {
+const SelectedPlayer = ({ selectedPlayer ,handleDelete,handleIsActive}) => {
     // console.log(selectedPlayer)
     return (
         <div className='w-11/12 mx-auto'>
@@ -16,6 +16,7 @@ const SelectedPlayer = ({ selectedPlayer ,handleDelete}) => {
                         ></SelectedPlayerCard>)
                 }
             </div>
+            <button onClick={()=>handleIsActive("available")} className="btn bg-[#E7FE29] ">Add More Player</button> 
         </div>
     );
 };
